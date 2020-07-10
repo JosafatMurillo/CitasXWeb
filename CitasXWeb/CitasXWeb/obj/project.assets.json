@@ -12545,11 +12545,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb Controllers\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
+      "projectUniqueName": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb original\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
       "projectName": "CitasXWeb",
-      "projectPath": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb Controllers\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
+      "projectPath": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb original\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
       "packagesPath": "C:\\Users\\INSPIRON 5577\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb Controllers\\CitasXWeb\\CitasXWeb\\CitasXWeb\\obj\\",
+      "outputPath": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb original\\CitasXWeb\\CitasXWeb\\CitasXWeb\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
