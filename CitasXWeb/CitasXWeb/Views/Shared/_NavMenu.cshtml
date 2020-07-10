@@ -15,21 +15,23 @@
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-lg bg-primary">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="sr-only">Toggle navigation</span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">CitasXWeb</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand" style="color:white;">CitasXWeb</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Index" style="margin-right:15px;color:white;">Inicio</a></li>
+                    <li class="nav-item"><a asp-area="" asp-controller="Paciente" asp-action="AgendarCita" style="margin-right:15px;color:white;">Agendar cita médica</a></li>
+                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Registro" style="margin-right:15px;color:white;">Registrar paciente</a></li>
+                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Index" style="margin-right:15px;color:white;">Directorio</a></li>
+                    <li class="nav-item"><a asp-area="" asp-controller="Home" asp-action="Index" style="margin-right:15px;color:white;">Acerca de</a></li>
                 </ul>
-                <a asp-area="" asp-controller="Home" asp-action="Login">Iniciar sesión</a>
+                <a asp-area="" asp-controller="Home" asp-action="Login" style="color:white;">Iniciar sesión</a>
             </div>
         </div>
     </nav>

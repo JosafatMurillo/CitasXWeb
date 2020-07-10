@@ -61,3 +61,6 @@ C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\bin\Debu
 C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\bin\Debug\netcoreapp2.1\CitasXWeb.Views.pdb
 C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\CitasXWeb.csprojAssemblyReference.cache
 C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\CitasXWeb.csproj.CopyComplete
+C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavMenu.g.cshtml.cs
+C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Paciente\AgendarCita.g.cshtml.cs
+C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Medico\Dash.g.cshtml.cs
