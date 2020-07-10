@@ -1,7 +1,11 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
+<<<<<<< HEAD
     "signature": "8a0e6a11a429e166a84460c1af0cc6e6a451a2e2"
+=======
+    "signature": "d7c0dd2e74c9092dcbe77911c1ff12b29cb4b34f"
+>>>>>>> UI
   },
   "compilationOptions": {
     "defines": [
@@ -28,7 +32,12 @@
           "Microsoft.EntityFrameworkCore": "2.1.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.1.14",
           "Microsoft.NETCore.App": "2.1.0",
+<<<<<<< HEAD
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9"
+=======
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.9",
+          "bootstrap": "4.5.0"
+>>>>>>> UI
         },
         "runtime": {
           "CitasXWeb.dll": {}
@@ -37,6 +46,16 @@
           "CitasXWeb.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "bootstrap/4.5.0": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.16.0"
+        }
+      },
+      "jQuery/3.0.0": {},
+>>>>>>> UI
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "2.8.0",
@@ -440,6 +459,10 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+<<<<<<< HEAD
+=======
+      "popper.js/1.16.0": {},
+>>>>>>> UI
       "Remotion.Linq/2.2.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -3497,6 +3520,23 @@
       "serviceable": false,
       "sha512": ""
     },
+<<<<<<< HEAD
+=======
+    "bootstrap/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k0Z6NMeEg8dvQD3IprG8V0Q/szV3OBgfGT2EyKUG0Ae6U6GrYaKvQacLJMCfI/0m5DRX6JfZG6aFNz8mFrY/tw==",
+      "path": "bootstrap/4.5.0",
+      "hashPath": "bootstrap.4.5.0.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
+    },
+>>>>>>> UI
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",
       "serviceable": true,
@@ -3658,6 +3698,16 @@
       "path": "nuget.frameworks/4.7.0",
       "hashPath": "nuget.frameworks.4.7.0.nupkg.sha512"
     },
+<<<<<<< HEAD
+=======
+    "popper.js/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZJhaIouJ7dztoRoqj+KA1ADGpEIr+MzCWOkKm/Q6tu3CAauSsc+ZzXsxsD6RClRwieacqE3QNYNpaLU/mkVnWg==",
+      "path": "popper.js/1.16.0",
+      "hashPath": "popper.js.1.16.0.nupkg.sha512"
+    },
+>>>>>>> UI
     "Remotion.Linq/2.2.0": {
       "type": "package",
       "serviceable": true,

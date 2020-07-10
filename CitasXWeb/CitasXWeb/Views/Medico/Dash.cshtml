@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<style>
+
+    .right {
+        background-color: lightgray;
+    }
+
+    .top-object {
+        margin-top: 20px;
+    }
+
+    .cards {
+        margin-top: 15px;
+    }
+</style>
+
+<div class="row cont">
+    <div class="col-sm-8">
+        <div class="input-group mb-3 top-object">
+            <input type="text" class="form-control" placeholder="Buscar por CURP" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2"><span class="glyphicon-search">Buscar</span></button>
+            </div>
+        </div>
+        <div class="card cards">
+            <div class="card-body">
+                <h4>Pacientes</h4>
+                <div class="list-group" style="margin-top:15px;">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">Adolfo Ángel de la Cruz Díaz</h6>
+                            <small>CUDA980616ZHZVD00</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">Adolfo Ángel de la Cruz Díaz</h6>
+                            <small>CUDA980616ZHZVD00</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h6 class="mb-1">Adolfo Ángel de la Cruz Díaz</h6>
+                            <small>CUDA980616ZHZVD00</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="card top-object">
+            <div class="card-body">
+                <h4>Cita actual</h4>
+                <p>Fecha de la cita</p>
+                <div class="row">
+                    <button class="col-sm-6 btn btn-primary">Editar</button>
+                    <button class="col-sm-6 btn btn-outline-secondary">Cancelar</button>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="margin-top:15px;">
+            <div class="card-body cards">
+                <h5>Citas del día</h5>
+                <div class="list-group" style="margin-top:15px;">
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h7>Adolfo Ángel de la Cruz Díaz</h7>
+                            <small>09:00</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h7>Adolfo Ángel de la Cruz Díaz</h7>
+                            <small>09:00</small>
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h7>Adolfo Ángel de la Cruz Díaz</h7>
+                            <small>09:00</small>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
