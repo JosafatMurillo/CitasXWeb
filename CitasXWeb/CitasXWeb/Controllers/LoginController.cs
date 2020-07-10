@@ -10,14 +10,14 @@ using CitasXWeb.Models;
 
 namespace CitasXWeb.Controllers
 {
-    [Route("api")]
+    [Route("login")]
     public class LoginController : Controller
     {
 
         CitasXContext _context = new CitasXContext();
 
         // GET api/<controller>/5
-        [HttpGet("login")]
+        [HttpGet]
         public async Task<IActionResult> Login([FromBody] string identificador, [FromBody] string contrasenia)
         {
             if (!ModelState.IsValid)
