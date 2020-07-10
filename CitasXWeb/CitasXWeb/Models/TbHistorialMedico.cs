@@ -14,5 +14,8 @@ namespace CitasXWeb.Models
         public string HisEvaluacion { get; set; }
         public string HisMedicamento { get; set; }
         public DateTime? HisFecha { get; set; }
+
+        public TbPersonalHospital HisMedicoNavigation { get; set; }
+        public TbPaciente HisPacienteNavigation { get; set; }
     }
 }
