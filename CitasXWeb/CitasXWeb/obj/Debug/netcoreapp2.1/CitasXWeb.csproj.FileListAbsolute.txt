@@ -64,3 +64,6 @@ C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debu
 C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavMenu.g.cshtml.cs
 C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Paciente\AgendarCita.g.cshtml.cs
 C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Medico\Dash.g.cshtml.cs
+C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavBarMedico.g.cshtml.cs
+C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavBarPaciente.g.cshtml.cs
+C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_NavBarRecepcionista.g.cshtml.cs
