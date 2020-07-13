@@ -9,27 +9,31 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CitasXWeb.Controllers
 {
-    [Route("registrarPaciente")]
+    [Route("api/[controller]")]
     public class RegistrarPacienteController : Controller
     {
         CitasXContext _context = new CitasXContext();
 
-        // GET api/<controller>/5
+        [Route("/Personal/Registro")]
+        [Produces("application/json")]
         [HttpPost]
-        public async Task<IActionResult> RegistrarPaciente([FromBody] TbUsuario paciente)
+        public Boolean RegistrarPaciente([FromForm] TbPaciente paciente)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-            var usuario = new TbUsuario();
+            _context.TbPaciente.Add(paciente);
+            var confirmar = _context.SaveChanges();
 
-            if (usuario == null)
+            if(confirmar > 0)
             {
-                return NotFound();
+                ViewBag.registroPaciente = true;
+                return true;
             }
+            ViewBag.registroPaciente = false;
+            return false;
+        }
 
-            return Ok(usuario);
+        public IActionResult cancelarRegistro()
+        {
+            return View();
         }
     }
 }
