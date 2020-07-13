@@ -10,29 +10,36 @@ using CitasXWeb.Models;
 
 namespace CitasXWeb.Controllers
 {
-    [Route("login")]
+    [Route("api/[controller]")]
     public class LoginController : Controller
     {
 
         CitasXContext _context = new CitasXContext();
 
         // GET api/<controller>/5
-        [HttpGet]
-        public async Task<IActionResult> Login([FromBody] string identificador, [FromBody] string contrasenia)
+        [Route("/Home/Login")]
+        [HttpPost]
+        [Produces("application/json")]
+        public TbUsuario Login([FromForm] string identificador, [FromForm] string contrasenia)
         {
-            if (!ModelState.IsValid)
+            var usuario = _context.TbUsuario.Where(u => u.UsuIdentificador.Equals(identificador) && u.UsuContrasenia.Equals(contrasenia)).First();
+            ViewBag.usuario = usuario;
+
+            return usuario;
+        }
+
+        public IActionResult redireccionLogin(TbUsuario usuario)
+        {
+            if (usuario.UsuRol == 1)
             {
-                return BadRequest(ModelState);
+                return View(/*medico*/);
             }
-
-            var usuario = _context.TbUsuario.FirstOrDefault(u => u.UsuIdentificador.Equals(identificador) && u.UsuContrasenia.Equals(contrasenia));
-
-            if (usuario == null)
+            if (usuario.UsuRol == 2)
             {
-                return NotFound();
+                return View(/*recepcionista*/);
+            } else {
+                return View(/*paciente*/);
             }
-
-            return Ok(usuario);
         }
     }
 }
