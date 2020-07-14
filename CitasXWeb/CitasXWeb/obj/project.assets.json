@@ -2897,12 +2897,9 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
-<<<<<<< HEAD
-=======
       "popper.js/1.16.0": {
         "type": "package"
       },
->>>>>>> UI
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -7849,7 +7846,6 @@
       "path": "newtonsoft.json/11.0.2",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -7905,8 +7901,6 @@
         "nuget.frameworks.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "popper.js/1.16.0": {
       "sha512": "ZJhaIouJ7dztoRoqj+KA1ADGpEIr+MzCWOkKm/Q6tu3CAauSsc+ZzXsxsD6RClRwieacqE3QNYNpaLU/mkVnWg==",
       "type": "package",
@@ -8009,7 +8003,6 @@
         "popper.js.nuspec"
       ]
     },
->>>>>>> UI
     "Remotion.Linq/2.2.0": {
       "sha512": "fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "type": "package",
@@ -8116,7 +8109,6 @@
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -8143,7 +8135,6 @@
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -8724,10 +8715,7 @@
       "path": "system.composition.attributedmodel/1.0.31",
       "files": [
         ".nupkg.metadata",
-<<<<<<< HEAD
-=======
         ".signature.p7s",
->>>>>>> UI
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.AttributedModel.dll",
@@ -8772,10 +8760,7 @@
       "path": "system.composition.runtime/1.0.31",
       "files": [
         ".nupkg.metadata",
-<<<<<<< HEAD
-=======
         ".signature.p7s",
->>>>>>> UI
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Composition.Runtime.dll",
@@ -8916,7 +8901,6 @@
       "path": "system.diagnostics.contracts/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9068,6 +9052,7 @@
       "path": "system.diagnostics.fileversioninfo/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10083,7 +10068,6 @@
       "path": "system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/Xamarinmac20/_._",
@@ -10551,7 +10535,6 @@
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12405,7 +12388,6 @@
       "path": "system.threading.tasks.parallel/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12501,6 +12483,7 @@
       "path": "system.valuetuple/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/.xml",
@@ -12765,6 +12748,7 @@
       "path": "system.xml.xpath/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12803,6 +12787,7 @@
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -12842,12 +12827,8 @@
       "Microsoft.EntityFrameworkCore >= 2.1.14",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.1.14",
       "Microsoft.NETCore.App >= 2.1.0",
-<<<<<<< HEAD
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9"
-=======
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.1.9",
       "bootstrap >= 4.5.0"
->>>>>>> UI
     ]
   },
   "packageFolders": {
@@ -12857,19 +12838,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb original\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
-      "projectName": "CitasXWeb",
-      "projectPath": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb original\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
-      "packagesPath": "C:\\Users\\INSPIRON 5577\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\INSPIRON 5577\\Desktop\\Proyecto Programacion Segura\\CitasXWeb original\\CitasXWeb\\CitasXWeb\\CitasXWeb\\obj\\",
-=======
       "projectUniqueName": "C:\\Users\\adolf\\Documents\\Repositorios GIT\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
       "projectName": "CitasXWeb",
       "projectPath": "C:\\Users\\adolf\\Documents\\Repositorios GIT\\CitasXWeb\\CitasXWeb\\CitasXWeb\\CitasXWeb.csproj",
       "packagesPath": "C:\\Users\\adolf\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\adolf\\Documents\\Repositorios GIT\\CitasXWeb\\CitasXWeb\\CitasXWeb\\obj\\",
->>>>>>> UI
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12921,13 +12894,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.1.9, )"
-<<<<<<< HEAD
-=======
           },
           "bootstrap": {
             "target": "Package",
             "version": "[4.5.0, )"
->>>>>>> UI
           }
         },
         "imports": [
