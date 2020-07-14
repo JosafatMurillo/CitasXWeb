@@ -19,7 +19,7 @@ namespace CitasXWeb.Controllers
         [HttpPost]
         public List<TbCita> obtenerCitasFecha([FromForm]DateTime fecha)
         {
-            List<TbCita> citas = _context.TbCita.Where(c => c.CitFecha.Equals(fecha) && c.CitEstado.Equals(1)).ToList(); //El estado 1 de la cita hace referencia a que está agendada
+            List<TbCita> citas = _context.TbCita.Where(c => c.CitFecha.Equals(fecha) && c.CitEstado.Equals(1)).OrderBy(c => c.CitHora).ToList(); //El estado 1 de la cita hace referencia a que está agendada
             ViewBag.citas = citas;
             return citas;
         }
@@ -78,7 +78,7 @@ namespace CitasXWeb.Controllers
         [HttpPost]
         public List<TbHistorialMedico> ObtenerHistorialMedico([FromForm] string CURP)
         {
-            List<TbHistorialMedico> historial = _context.TbHistorialMedico.Where(h => h.HisPaciente.Equals(CURP)).ToList();
+            List<TbHistorialMedico> historial = _context.TbHistorialMedico.Where(h => h.HisPaciente.Equals(CURP)).OrderBy(h => h.HisFecha).ToList();
             ViewBag.historialMedico = historial;
             return historial;
         }

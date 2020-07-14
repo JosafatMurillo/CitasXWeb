@@ -33,8 +33,7 @@ namespace CitasXWeb.Controllers
             if (usuario.UsuRol == 1)
             {
                 return View(/*medico*/);
-            }
-            if (usuario.UsuRol == 2)
+            } else if (usuario.UsuRol == 2)
             {
                 return View(/*recepcionista*/);
             } else {
