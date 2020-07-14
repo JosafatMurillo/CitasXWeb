@@ -33,6 +33,8 @@ using CitasXWeb.Models;
 #line 1 "C:\Users\adolf\Documents\Repositorios GIT\CitasXWeb\CitasXWeb\CitasXWeb\Views\Medico\Dash.cshtml"
   
     ViewData["Title"] = "Dashboard";
+    Layout = TempData["navbar"] as string;
+    TempData.Keep();
 
 #line default
 #line hidden

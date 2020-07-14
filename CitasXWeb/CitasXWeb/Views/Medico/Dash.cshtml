@@ -1,5 +1,7 @@
 ﻿@{
     ViewData["Title"] = "Dashboard";
+    Layout = TempData["navbar"] as string;
+    TempData.Keep();
 }
 
 <style>
