@@ -65,8 +65,8 @@ using CitasXWeb.Models;
             BeginContext(120, 215, true);
             WriteLiteral("<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\" />\r\n");
             EndContext();
-            BeginContext(269, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88a09dfee3e64bcc98928c3383142ff2", async() => {
+            BeginContext(335, 64, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5bb646c574e14245a603580d9dac62d6", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -96,9 +96,9 @@ using CitasXWeb.Models;
                 <article class=""card-body"">
                     ");
             EndContext();
-            BeginContext(1291, 4386, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cff12bef6b8c48f19f9929bb34f473a6", async() => {
-                BeginContext(1328, 4342, true);
+            BeginContext(1357, 4386, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a767079c9c4b4ed0a30c89b2b380bfbb", async() => {
+                BeginContext(1394, 4342, true);
                 WriteLiteral(@"
                         <div class=""form-row"">
                             <div class=""col form-group"">
@@ -116,8 +116,7 @@ using CitasXWeb.Models;
                                 <input type=""text"" name=""curp"" class=""form-control"" placeholder="""">
                             </div>
                             <div class=""col form-group"">
-                                <label>Domicilio </label>
-");
+                                <label>Domicilio </label>");
                 WriteLiteral(@"
                                 <input type=""text"" name=""domicilio"" class=""form-control"" placeholder="" "">
                             </div>

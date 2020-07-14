@@ -69,7 +69,7 @@ using CitasXWeb.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(25, 1153, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58ec9c4fca604f9da482c57eca2648cc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e190c2f2e3a493c842f397c5b3c0244", async() => {
                 BeginContext(31, 121, true);
                 WriteLiteral("\r\n    <meta charset=\"utf-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>");
                 EndContext();
@@ -84,12 +84,12 @@ using CitasXWeb.Models;
                 WriteLiteral(" - CitasXWeb</title>\r\n\r\n    ");
                 EndContext();
                 BeginContext(198, 969, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5964581ce1314a1f8dbba107ae2b1375", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae3fc5c1ee2f4d32a772c8965d4c80e5", async() => {
                     BeginContext(233, 233, true);
                     WriteLiteral("\r\n        <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\" />\r\n        ");
                     EndContext();
                     BeginContext(466, 64, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48ce5bc0d21544ca879c7057bc628ad6", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c2bf70ca5d043cfaa2f24b8c22a9837", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -143,7 +143,7 @@ using CitasXWeb.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(1180, 1607, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "517558adc0604acaa11e8641311ce8f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f2c25aea8b33463cbf56b872f03f0063", async() => {
                 BeginContext(1186, 450, true);
                 WriteLiteral(@"
     <nav class=""navbar navbar-expand-lg bg-primary"">
@@ -155,7 +155,7 @@ using CitasXWeb.Models;
                 ");
                 EndContext();
                 BeginContext(1636, 111, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "874af02c0b5e459aba4b27b32157f261", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7281c995b9654784904a60c8977a8c31", async() => {
                     BeginContext(1734, 9, true);
                     WriteLiteral("CitasXWeb");
                     EndContext();
@@ -183,7 +183,7 @@ using CitasXWeb.Models;
                 WriteLiteral("\r\n            </div>\r\n            <div class=\"navbar-collapse collapse\">\r\n                <ul class=\"navbar-nav mr-auto\">\r\n                    <li class=\"nav-item\">");
                 EndContext();
                 BeginContext(1911, 105, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19bd2f505bf34208aca7e6eeef22452f", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2258d6f32c5c4b80980a2767bdf120ef", async() => {
                     BeginContext(2006, 6, true);
                     WriteLiteral("Inicio");
                     EndContext();
@@ -210,7 +210,7 @@ using CitasXWeb.Models;
                 WriteLiteral("</li>\r\n                    <li class=\"nav-item\">");
                 EndContext();
                 BeginContext(2064, 128, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c916ceb794743e496ebe6fa33080ef2", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "433708ec10d94e469f37e96c430c3012", async() => {
                     BeginContext(2169, 19, true);
                     WriteLiteral("Agendar cita médica");
                     EndContext();
@@ -237,7 +237,7 @@ using CitasXWeb.Models;
                 WriteLiteral("</li>\r\n                    <li class=\"nav-item\">");
                 EndContext();
                 BeginContext(2240, 120, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "07ed8fd025b94e7bae10c3d6c3759164", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a4c231906481404d9a4c0b5150a20675", async() => {
                     BeginContext(2338, 18, true);
                     WriteLiteral("Registrar paciente");
                     EndContext();
@@ -264,7 +264,7 @@ using CitasXWeb.Models;
                 WriteLiteral("</li>\r\n                </ul>\r\n                ");
                 EndContext();
                 BeginContext(2406, 101, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b3a30f403ca84422a7afdfcbf1d337ee", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "069994cfcf684b8d871e27a934464582", async() => {
                     BeginContext(2490, 13, true);
                     WriteLiteral("Cerrar sesión");
                     EndContext();

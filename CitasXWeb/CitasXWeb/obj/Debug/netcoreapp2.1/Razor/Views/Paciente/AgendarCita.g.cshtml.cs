@@ -65,8 +65,8 @@ using CitasXWeb.Models;
             BeginContext(120, 215, true);
             WriteLiteral("<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\" integrity=\"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T\" crossorigin=\"anonymous\" />\r\n");
             EndContext();
-            BeginContext(269, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6703fbb20399438aada8c06ddaf1a262", async() => {
+            BeginContext(335, 64, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19270e7c60c141579bac20902e8a1c42", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -96,9 +96,9 @@ using CitasXWeb.Models;
                 <article class=""card-body"">
                     ");
             EndContext();
-            BeginContext(1299, 4452, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7311c817cc4d4c7f9ae8d2a14c58535b", async() => {
-                BeginContext(1336, 4408, true);
+            BeginContext(1365, 4452, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4bf177ecaef14c87b3b32a6c7587f244", async() => {
+                BeginContext(1402, 4408, true);
                 WriteLiteral(@"
                         <div class=""col form-group"">
                             <label>Nombre: </label>

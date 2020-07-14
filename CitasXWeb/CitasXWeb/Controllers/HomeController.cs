@@ -5,12 +5,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using CitasXWeb.Models;
+using System.Net;
+using System.Text;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace CitasXWeb.Controllers
 {
     public class HomeController : Controller
     {
-        Dictionary<String, String> listaNavBar = null;
+
+        private static String url = "http://localhost:50665";
 
         public IActionResult Index()
         {
@@ -36,28 +41,43 @@ namespace CitasXWeb.Controllers
             return View("Login");
         }
 
+        [Route("/Home/IniciarSesion")]
         [HttpPost]
         public ActionResult IniciarSesion(String username, String contrasena)
         {
-            if(username == null || contrasena == null)
+            if (username == null || contrasena == null)
             {
                 return View("Login");
             }
 
-            var contexto = new CitasXContext();
-            var usuario = contexto.TbUsuario.FirstOrDefault(p => p.UsuIdentificador.Equals(username) && p.UsuContrasenia.Equals(contrasena));
+            var request = (HttpWebRequest)WebRequest.Create(url + "/Home/Login");
+            var postData = $"identificador={username}&contrasenia={contrasena}";
+            var data = Encoding.ASCII.GetBytes(postData);
 
-            listaNavBar = new Dictionary<String, String>();
+            request.Method = "POST";
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.ContentLength = data.Length;
 
-            if (usuario == null)
+            using(var stream = request.GetRequestStream())
             {
-                return View("Login");
+                stream.Write(data, 0, data.Length);
             }
-            else
+
+            using (var response = (HttpWebResponse)request.GetResponse())
             {
-                TempData["usuario"] = usuario.UsuId;
-                TempData["usuario_rol"] = usuario.UsuRol;
-                return IniciarComoRecepcionista(usuario.UsuRol);
+                var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+                var usuario = JsonConvert.DeserializeObject<TbUsuario>(responseString);
+
+                if (usuario == null)
+                {
+                    return View("Login");
+                }
+                else
+                {
+                    TempData["usuario"] = usuario.UsuId;
+                    TempData["usuario_rol"] = usuario.UsuRol;
+                    return IniciarComoRecepcionista(usuario.UsuRol);
+                }
             }
         }
 
