@@ -57,6 +57,8 @@ namespace CitasXWeb.Controllers
                 }
             }
 
+            ViewBag.horasDisponibles = horas;
+
             return horas;
         }
 
